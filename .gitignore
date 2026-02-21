@@ -35,10 +35,6 @@ Makefile
 
 # VS Code local settings (optional team-shared settings can be committed manually)
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 # Binaries / libraries
 *.exe
