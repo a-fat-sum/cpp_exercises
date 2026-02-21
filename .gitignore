@@ -1,0 +1,64 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+Makefile
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.user.*
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.ipch/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog/
+*.lastbuildstate
+*.log
+
+# VS Code local settings (optional team-shared settings can be committed manually)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Binaries / libraries
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.a
+
+# C/C++ intermediate files
+*.o
+*.lo
+*.lai
+*.pch
+*.gch
+
+# Misc
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

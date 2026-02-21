@@ -1,0 +1,10 @@
+add_executable(PointerIllustrations PointerIllustrations.cpp)
+add_executable(ListIllustrations ListIllustrations.cpp)
+add_executable(ArrayIllustrations ArrayIllustrations.cpp)
+
+target_compile_features(PointerIllustrations PRIVATE cxx_std_23)
+target_compile_features(ListIllustrations PRIVATE cxx_std_23)
+target_compile_features(ArrayIllustrations PRIVATE cxx_std_23)
+
+target_link_libraries(ListIllustrations PRIVATE Collections)
+target_link_libraries(ArrayIllustrations PRIVATE Collections)
